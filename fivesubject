@@ -1,0 +1,94 @@
+
+package workspace;
+import java.util.*; 
+
+public class fivesubject {
+	String InputPersonalData;
+	String Name;   
+	String Address;
+	String age;
+	String phone;
+	
+	String StudentGrades;
+	String Biology;
+	String English;
+	String Filipino;
+	String Mathematics ; 
+	String Computer; 
+	void print() {
+		
+	}
+	
+	   public static void main(String[] args)
+	   {
+		   Scanner in = new Scanner(System.in);
+		   System.out.println("[\n\nInput Personal Data]");
+		   System.out.println("\nEnter your name: ");
+		   String name =in.next();
+		   System.out.println("\nEnter your address: ");
+		   String address =in.next();
+		   System.out.println("\nEnter your age: ");
+		   String age =in.next();
+		   System.out.println ("\nEnter your phone: ");
+		   String phone =in.next();
+		   
+		   System.out.println("\n[***Student Grades***]");
+		   
+		   System.out.println("\nGrade Biology: "); 
+		   int phy =in.nextInt();
+		   System.out.println("\nGrade English: "); 
+		   int che =in.nextInt();
+		   System.out.println("\nGrade Filipino: ");
+		   int bio =in.nextInt();
+		   System.out.println("\nGrade Mathematics: ");
+		   int  math =in.nextInt();
+		   System.out.println("\nGrade Computer: ");
+		   int comp =in.nextInt();
+		   
+		   {
+			   System.out.println("\n[Input Personal Data]");
+		   }
+		   {
+			   System.out.println("Enter your name: "+name);
+		   } 
+		   {
+			   System.out.println("Enter your address: "+address);   
+		   }
+		    {
+			   System.out.println("Enter your age: "+age);
+		    }
+			   
+		   {
+			   System.out.println("Enter your phone:  "+phone);
+		   }
+		   {
+			   System.out.println("\n[Student Grades]"); 
+		   }
+		   {
+			  System.out.println("Physics: "+phy);
+			  
+		   }
+		   {
+			   System.out.println("Chemistry: "+che);
+		   }
+		   {
+			       System.out.println("Biology: "+bio);
+			       
+		   }
+		   {
+			   System.out.println("Mathematics: "+math);
+		   }
+		   { 
+			   System.out.println("Computer: "+comp);
+		   }
+		   {
+			   
+			   
+		   }
+		   
+		   
+		   
+		
+     }     
+
+}
